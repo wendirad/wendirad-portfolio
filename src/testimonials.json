@@ -1,0 +1,38 @@
+[
+  {
+    "author": "Mukerem Ali",
+    "profession":"Django Developer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien ac consequat convallis, purus elit euismod magna, quis ultrices augue velit vitae mi.",
+    "img": "https://i1.rgstatic.net/ii/profile.image/11431281129006640-1679470392880_Q512/Mukerem-Nur.jpg"
+  },
+  {
+    "author": "Temkin Mengistu",
+    "profession":"Backend Developer",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+    "img": "https://media.licdn.com/dms/image/C4E03AQHHfko0FJ-IrQ/profile-displayphoto-shrink_800_800/0/1641933075664?e=2147483647&v=beta&t=hLr5HYFR83pw23MmwMdFkPYgL89V1mko01IC4DOEZn4"
+  },
+  {
+    "author": "Mebatsion Sahle",
+    "profession":"Backend Developer",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "img": "https://media.licdn.com/dms/image/D4E03AQEo62DtJ8Wd2A/profile-displayphoto-shrink_800_800/0/1683988705607?e=2147483647&v=beta&t=ylHSWNaS0n8pNa_tSQZwAP0GJ5fKCnWd7397SBMBr24"
+  },
+  {
+    "author": "Firkemariam Getu",
+    "profession":"Backend Developer",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "img": "https://media.licdn.com/dms/image/D5603AQHDgusysoBbKg/profile-displayphoto-shrink_800_800/0/1673392938838?e=2147483647&v=beta&t=ttbTKxsvgF04K27yRgSWizTlKAfFk0c7CDzcN4x4DM0"
+  },
+  {
+    "author": "David Lee",
+    "profession":"",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "img": "https://example.com/image5.jpg"
+  },
+  {
+    "author": "Sarah Brown",
+    "profession":"",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "img": "https://example.com/image6.jpg"
+  }
+]

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri&family=Monomaniac+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri&family=Monomaniac+One&family=Roboto+Mono&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .icons{
+    @apply cursor-pointer border-4 border-secondary-light p-3 flex hover:bg-black hover:text-white rounded-3xl items-center text-center;
+    border-radius: 50%;
+} */
+.navigation {
+    @apply pl-2 pr-2 mt-2 font-primary text-primary-light;
+}
