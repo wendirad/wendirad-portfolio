@@ -6,6 +6,7 @@
       :pagination="{
         clickable: true,
       }"
+      :loop="true"
       :autoplay="{
         delay: 2000,
         disableOnInteraction: false,
@@ -16,7 +17,7 @@
       :modules="modules"
       class="m-10"
     >
-      <swiper-slide class='text-center bg-slate-300 p-5 rounded-md mb-10' v-for="(slide,index) in slides" :key="index">
+      <swiper-slide class='text-center dark:text-primary-dark bg-slate-300 p-5 rounded-md mb-10' v-for="(slide,index) in slides" :key="index">
         <p>
               {{ slide.description }}
             </p>
@@ -37,7 +38,7 @@ import 'swiper/css/pagination';
 let testimonials = require('./testimonials.json')
 
 export default {
-  name: 'App',
+  name: 'TestimonialsWonde',
   components: { Swiper, SwiperSlide },
   data() {
     return {
@@ -51,7 +52,7 @@ export default {
         640: {
           slidesPerView: 2,
         },
-        780: {
+        1028: {
           slidesPerView: 3,
         },
       }
@@ -64,14 +65,13 @@ export default {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #656161;
+  background-color: #2d2c2c;
   opacity: 0.5;
   transition: opacity 0.2s ease-out;
 }
 
 .swiper-pagination-bullet-active {
-  opacity: 1;
-  background-color: #000;
+  background-color: #060606;
 }
 
 .swiper-pagination-bullet-active::after {
@@ -82,4 +82,5 @@ export default {
   transform: rotate(45deg);
   background-color: #000;
 }
+
 </style>

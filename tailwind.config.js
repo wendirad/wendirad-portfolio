@@ -7,7 +7,8 @@ module.exports = {
       fontFamily:{
         'primary':['Gayathri'],
         'hero':['Monomaniac One'],
-        'title':['Roboto Mono'],
+        'title': ['Roboto Mono'],
+        'hero-title':['Pacifico'],
       },
       colors:{
         'primary-light':'#FFFDFD',
@@ -31,6 +32,8 @@ module.exports = {
       },
     },   
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
 

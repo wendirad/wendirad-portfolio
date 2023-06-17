@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gayathri&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gayathri&family=Monomaniac+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gayathri&family=Monomaniac+One&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,5 +11,5 @@
     border-radius: 50%;
 } */
 .navigation {
-    @apply pl-2 pr-2 mt-2 font-primary text-primary-light;
+    @apply pl-1 pr-1 mt-2 font-primary text-primary-light;
 }
