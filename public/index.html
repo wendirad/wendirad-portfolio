@@ -51,7 +51,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/countup.js@2.0.7/dist/countUp.min.js"></script>
   <script src="https://kit.fontawesome.com/76cc1105b1.js" crossorigin="anonymous"></script>
 </head>
 
@@ -110,13 +110,12 @@
           <a href="#" class="nav-el-sm"><i class="fa-solid fa-question"></i></a>
         </li>
         <li class="navigation">
-          <a href="#" class="nav-el-lg">Skill</a>
-          <a href="#" class="nav-el-sm"><i class="fa-solid fa-user-gear"></i></a>
-
+          <a href="#skill" class="nav-el-lg">Skill</a>
+          <a href="#skill" class="nav-el-sm"><i class="fa-solid fa-user-gear"></i></a>
         </li>
         <li class="navigation">
-          <a href="#" class="nav-el-lg">Education</a>
-          <a href="#" class="nav-el-sm"><i class="fa-solid fa-user-graduate"></i></a>
+          <a href="#experience" class="nav-el-lg">Education</a>
+          <a href="#experience" class="nav-el-sm"><i class="fa-solid fa-user-graduate"></i></a>
         </li>
         <li class="navigation">
           <a href="#" class="nav-el-lg">Blog</a>
@@ -161,54 +160,221 @@
       </div>
     </div>
     <!--Projects-->
-      <div class="items-center text-center">
+      <div class="items-center text-center font-hero-title">
         <h1 class="text-center text-3xl">Projects</h1>
       </div>
       <div class="w-full text-center mt-20" id="projects">
       </div>
   <!--Skills part-->
-  <div class="w-full text-center mt-20 mb-32 font-extrabold text-3xl font-primary">
+  <div class="w-full text-center mt-20 mb-32 text-3xl font-hero-title" id="skill">
     <h1>Skills</h1>
     <div class="grid md:grid-cols-2 gap-10 m-6">
-      <div data-aos="flip-right" data-aos-duration="1000" class="p-32 bg-secondary-light dark:bg-secondary-dark rounded-lg text-primary-light font-light text-md">skill
+      <div data-aos="flip-right" data-aos-duration="1000" class="pt-3 p-10 bg-secondary-light dark:bg-secondary-dark rounded-lg text-primary-light font-light text-md">
+        <div class="font-testimonials text-base text-start">
+          <ul class="list-disc font-bold">
+            <li>Python</li>
+          </ul>
+          <p>
+            Expertise in core python, a good understanding of multi-process architecture, and the ability to system
+            integrations with good debugging skill.
+          </p>
+        </div>
+        <div class="font-testimonials text-base text-start">
+          <ul class="list-disc font-bold">
+            <li>Django</li>
+          </ul>
+          <p>
+          Experience in advanced Django concepts. Good at extending basic functionalities, and have good
+          optimization and testing skills.
+          </p>
+        </div>
+        <div class="font-testimonials text-base text-start">
+          <ul class="list-disc font-bold">
+            <li>REST API</li>
+          </ul>
+          <p>
+            Deep understanding of how REST APIs work. Familiar with Django Rest Framework core concepts and
+            best practices.
+          </p>
+        </div>
+        <div class="font-testimonials text-base text-start">
+          <ul class="list-disc font-bold">
+            <li>GIT</li>
+          </ul>
+          <p>
+            Good version control experience using git. Trained with GitHub to manage repositories
+          </p>
+        </div>
       </div>
-      <div data-aos="flip-right" data-aos-duration="1000" class="p-32 bg-secondary-light dark:bg-secondary-dark rounded-lg text-primary-light font-light text-md">
-      </div>
-    </div>
-  </div>
-  <!-- Education -->
-  <div class="text-center">
-    <div class="flex flex-col md:grid md:grid-cols-2 overflow-hidden m-5 lg:flex-row sm:m-28  lg:gap-32 gap-20">
-      <div class="flex flex-col lg:mb-56 overflow-x-hidden">
-          <h1 class="font-hero-title text-3xl mb-10">Education</h1>
-          <div class="flex flex-col gap-20 lg:gap-44">
-          <div data-aos="fade-up-right" class="p-28 dark:bg-secondary-dark bg-secondary-light rounded-md"></div>
-          <div data-aos="fade-up-right" class="p-28 dark:bg-secondary-dark bg-secondary-light rounded-md"></div>
-          <div data-aos="fade-up-right" class="p-28 dark:bg-secondary-dark bg-secondary-light rounded-md"></div>
-          </div>
-      </div>
-      <div class="flex flex-col lg:mb-56 md:mt-44">
-        <h1 class="font-hero-title text-3xl mb-10">Experience</h1>
-        <div class="flex flex-col gap-20 lg:gap-44">
-          <div data-aos="fade-up-left" class="p-28 dark:bg-secondary-dark bg-secondary-light rounded-md"></div>
-          <div data-aos="fade-up-left" class="p-28 dark:bg-secondary-dark bg-secondary-light rounded-md"></div>
-          <div data-aos="fade-up-left" class="p-28 dark:bg-secondary-dark bg-secondary-light rounded-md"></div>
+      <div data-aos="flip-right" data-aos-duration="1000" class="pt-3 p-10 bg-secondary-light dark:bg-secondary-dark rounded-lg text-primary-light font-light text-md">
+        <div class="font-testimonials text-base text-start">
+          <ul class="list-disc font-bold">
+            <li>Python</li>
+          </ul>
+          <p>
+            Expertise in core python, a good understanding of multi-process architecture, and the ability to system
+            integrations with good debugging skill.
+          </p>
+        </div>
+        <div class="font-testimonials text-base text-start">
+          <ul class="list-disc font-bold">
+            <li>Django</li>
+          </ul>
+          <p>
+            Experience in advanced Django concepts. Good at extending basic functionalities, and have good
+            optimization and testing skills.
+          </p>
+        </div>
+        <div class="font-testimonials text-base text-start">
+          <ul class="list-disc font-bold">
+            <li>REST API</li>
+          </ul>
+          <p>
+            Deep understanding of how REST APIs work. Familiar with Django Rest Framework core concepts and
+            best practices.
+          </p>
+        </div>
+        <div class="font-testimonials text-base text-start">
+          <ul class="list-disc font-bold">
+            <li>GIT</li>
+          </ul>
+          <p>
+            Good version control experience using git. Trained with GitHub to manage repositories
+          </p>
         </div>
       </div>
     </div>
   </div>
-  <!--Stats-->
-  <div class="m-10 flex gap-10">
-  <img src="https://awesome-github-stats.azurewebsites.net/user-stats/wendirad?cardType=github&preferLogin=false&Background=11151C&Text=DDCEC9" alt="">
+  <!-- Education -->
+  <div class="text-center" id="experience">
+    <h1 class="font-hero-title text-3xl">Experience</h1>
+    <div class="flex flex-col md:grid md:grid-cols-2 columns-4 overflow-hidden m-5 lg:flex-row sm:m-28  gap-10">
+      <div class="flex col-span-3 flex-col overflow-x-hidden">
+          <div class="flex flex-col gap-3">
+          <div data-aos="fade-up-right" data-aos-duration="100" class="p-10 text-primary-light font-testimonials dark:bg-secondary-dark bg-secondary-light rounded-md">
+            <div class="font-bold text-xl text-start">
+            <ul class="list-disc">
+              <li>ADAMA SCIENCE AND TECHNOLOGY UNIVERSITY</li>
+            </ul>
+          </div>
+          <p class="text-start">2018 - 2023 | Computer Science and Engineering</p>
+            <div class="font-bold text-xl text-start">
+              <ul class="list-disc">
+                <li>HAWASSA TABOR SECONDARY AND PREPARATORY SCHOOL</li>
+              </ul>
+            </div>
+            <p class="text-start">2015 - 2017 | Natural Science</p>
+            <div class="font-bold text-xl text-start">
+              <ul class="list-disc">
+                <li>HAWASSA ADDIS KETEMA SECONDARY AND PREPARATORY SCHOOL</li>
+              </ul>
+            </div>
+            <p class="text-start">2013 - 2014 | Natural Science</p>
+          </div>
+          <div data-aos="fade-up-right"
+            class="p-10 text-primary-light font-testimonials dark:bg-secondary-dark bg-secondary-light rounded-md">
+            <div class="font-bold text-xl text-start">
+              <ul class="list-disc">
+                <li>EXTREME PROGRAMMER</li>
+              </ul>
+            </div>
+            <p class="text-start">NOVEMBER 2021 <span class="block">Competitive Programming (Problem Solving)
+            Arab Academy for Science and Technology</span></p>
+          <div class="font-bold text-xl text-start">
+          <ul class="list-disc">
+            <li>HONORABLE MENTION</li>
+          </ul>
+          </div>
+          <p class="text-start">OCTOBER 2019<span class="block">Competitive Programming (Problem Solving)
+          Baylor University</span></p>
+          </div>
+          <div data-aos="fade-up-left"
+            class="p-10 text-primary-light font-testimonials text-sm text-start dark:bg-secondary-dark bg-secondary-light rounded-md">
+            <h1 class="font-bold not-italic text-xl">
+              <ul class="list-disc">
+                <li>Python Developer</li>
+              </ul>
+            </h1>
+            <div class="flex flex-row justify-between">
+              <div><a class="underline" href="https://turing.com" target="_blank">Turing .inc</a></div>
+              <div>November 2022 - Present | Full time</div>
+            </div>
+            <p>As a Python Developer at a US-based company, my role is to develop code toward
+              the company's mission of ensuring AI technology benefits all mankind. I solve
+              numerous puzzles daily by writing high-quality, optimized Python code with minimal
+              supervision. I work in a fast-paced environment that handles millions of production
+              requests per day by leveraging advanced systems and APIs. Additionally, I provide
+              clear explanations of logic in my code, handle complex situations, debug, create
+              documentation, and conduct peer code reviews.</p>
+          </div>
+          </div>
+      </div>
+      
+      <div class="flex flex-col col-span-3 lg:mb-56 md:mt-44">
+        <div class="flex flex-col gap-3 ">
+                  <div data-aos="fade-up-left"
+                    class="p-10 text-primary-light font-testimonials text-sm text-start dark:bg-secondary-dark bg-secondary-light rounded-md">
+                    <h1 class="font-bold not-italic text-xl">
+                      <ul class="list-disc">
+                        <li>Full Stack Developer</li>
+                      </ul>
+                    </h1>
+                    <div class="flex flex-row justify-between">
+                      <div><a class="underline" href="https://turing.com" target="_blank">Backos Technologies</a></div>
+                      <div>January 2019 - November 2022 | Full time</div>
+                    </div>
+                    <p>As a Full Stack Developer at Backos Technology, I have 4 years of experience in
+                      developing and maintaining web applications using Python and Django. My
+                      responsibilities included designing and implementing new features, fixing bugs, and
+                      improving the performance and scalability of existing code. I have worked with a
+                      variety of programming languages and frameworks, including Python, Django,
+                      HTML, CSS, and JavaScript. I have also collaborated with cross-functional teams to
+                      ensure that the applications I worked on met the needs of the business and
+                      delivered a great user experience.</p>
+                  </div>
+        <div data-aos="fade-up-left"
+          class="p-10 text-primary-light font-testimonials text-sm text-start dark:bg-secondary-dark bg-secondary-light rounded-md">
+          <h1 class="font-bold not-italic text-xl">
+            <ul class="list-disc">
+
+              <li>Full Stack Web Developer</li>
+            </ul>
+          </h1>
+          <div class="flex flex-row justify-between">
+            <div><a class="underline" href="https://turing.com" target="_blank">Divergent Technologies</a></div>
+            <div>February 2022 - January 2023 | Contract</div>
+          </div>
+          <p>As a Full Stack Developer at Divergent Technology, I was involved in the
+          development of a web solution for the education sector focused on AI and Machine
+          Learning. My responsibilities included gathering requirements, building SRS,
+          designing system architecture, and implementing both front-end and back-end
+          features.</p>
+        </div>
+        <div data-aos="fade-up-left"
+          class="p-10 text-primary-light font-testimonials text-sm text-start dark:bg-secondary-dark bg-secondary-light rounded-md">
+          <h1 class="font-bold not-italic text-xl">
+            <ul class="list-disc">
+              <li>Full Stack Web Developer</li>
+            </ul>
+          </h1>
+          <div class="flex flex-row justify-between">
+            <div><a class="underline" href="https://turing.com" target="_blank">ASTU ,SoEEC</a></div>
+            <div>May 2022 - October 2022 | Contract</div>
+          </div>
+          <p>As a Full Stack Developer at ASTU, I was involved in the development of a store
+          management system for the School of Electrical Engineering and Computing
+          (SoEEC). My responsibilities included designing and implementing features to verify
+          stock balance, track item borrow history, manage university instructors' activity in
+          stores, digitize item borrow request process, and manage reports and analytics.</p>
+        </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!--Testimonial-->
   <div class="text-center font-extrabold text-2xl dark:text-primary-light">Testimonials</div>
   <div id="testimonials">
-  </div>
-  <!--Fun Facts-->
-  <div class="text-center">
-    <h1 class="font-hero-title text-2xl">Fun Facts</h1>
   </div>
   <!-- Contact -->
   <div class="contact-form md:w-full flex bg-secondary-light dark:bg-secondary-dark justify-center">
@@ -251,7 +417,6 @@
   </div>
 </article>
 </div>
-
 </div>
 <script src="./main-min.js"></script>
 </body>

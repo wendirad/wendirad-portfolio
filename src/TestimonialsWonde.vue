@@ -15,10 +15,10 @@
         enabled:true,
       }"
       :modules="modules"
-      class="m-10"
+      class="m-10 h-auto"
     >
       <swiper-slide class='text-center p-50 dark:text-primary-dark bg-slate-300  rounded-md mb-12' v-for="(slide,index) in slides" :key="index">
-        <p class="h-44 pt-6 p-6 mb-10 font-testimonials font-bold text-sm text-center" style="word-wrap: break-word;">
+        <p class="h-52 pt-6 p-6 mb-10 font-testimonials font-bold text-sm text-center" style="word-wrap: break-word;">
               "{{ slide.testimonial }}"
             </p>
         <div class="text-end relative pr-10">
@@ -82,7 +82,7 @@ export default {
   transform: rotate(45deg);
   background-color: #000;
 }
-.swiper-slide{
-  transition: tran;
+.swiper-slide-active{
+  background: red;
 }
 </style>
