@@ -1,38 +1,86 @@
 [
   {
-    "author": "Mukerem Ali",
-    "profession":"Django Developer",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien ac consequat convallis, purus elit euismod magna, quis ultrices augue velit vitae mi.",
-    "img": "https://i1.rgstatic.net/ii/profile.image/11431281129006640-1679470392880_Q512/Mukerem-Nur.jpg"
+    "name": "Emma Johnson",
+    "jobTitle": "Software Developer",
+    "company": "ABC Corp",
+    "testimonial": "Emma is a highly skilled and dedicated software developer. She was able to quickly understand our complex requirements and deliver a high-quality solution that exceeded our expectations. Emma is a great communicator and was able to keep us informed throughout the development process. I would highly recommend Emma to anyone in need of a top-notch software developer.",
+    "image": "https://randomuser.me/api/portraits/women/1.jpg"
   },
   {
-    "author": "Temkin Mengistu",
-    "profession":"Backend Developer",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
-    "img": "https://media.licdn.com/dms/image/C4E03AQHHfko0FJ-IrQ/profile-displayphoto-shrink_800_800/0/1641933075664?e=2147483647&v=beta&t=hLr5HYFR83pw23MmwMdFkPYgL89V1mko01IC4DOEZn4"
+    "name": "Daniel Kim",
+    "jobTitle": "Full Stack Developer",
+    "company": "XYZ Inc",
+    "testimonial": "Daniel is an outstanding full stack developer who consistently delivers high-quality work. He has a great eye for detail and is always willing to go the extra mile to ensure that the project is a success. Daniel is a great communicator and was able to keep us informed throughout the development process. I would highly recommend Daniel to anyone in need of a talented and reliable full stack developer.",
+    "image": "https://randomuser.me/api/portraits/men/2.jpg"
   },
   {
-    "author": "Mebatsion Sahle",
-    "profession":"Backend Developer",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "img": "https://media.licdn.com/dms/image/D4E03AQEo62DtJ8Wd2A/profile-displayphoto-shrink_800_800/0/1683988705607?e=2147483647&v=beta&t=ylHSWNaS0n8pNa_tSQZwAP0GJ5fKCnWd7397SBMBr24"
+    "name": "Ava Rodriguez",
+    "jobTitle": "Front-End Developer",
+    "company": "123 Co",
+    "testimonial": "Ava is a highly skilled front-end developer who always delivers work of the highest quality. She is a great team player and was able to collaborate effectively with our designers and back-end developers. Ava is very knowledgeable about the latest web development technologies and was able to apply them to great effect on our project. I would highly recommend Ava to anyone in need of a skilled front-end developer.",
+    "image": "https://randomuser.me/api/portraits/women/3.jpg"
   },
   {
-    "author": "Firkemariam Getu",
-    "profession":"Backend Developer",
-    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "img": "https://media.licdn.com/dms/image/D5603AQHDgusysoBbKg/profile-displayphoto-shrink_800_800/0/1673392938838?e=2147483647&v=beta&t=ttbTKxsvgF04K27yRgSWizTlKAfFk0c7CDzcN4x4DM0"
+    "name": "William Lee",
+    "jobTitle": "Software Engineer",
+    "company": "456 Inc",
+    "testimonial": "William is a talented and dedicated software engineer who always goes above and beyond to ensure the success of the project. He is a great communicator and was able to keep us informed throughout the development process. William has an excellent understanding of the latest programming languages and frameworks and was able to apply them to great effect on our project. I would highly recommend William to anyone in need of a top-notch software engineer.",
+    "image": "https://randomuser.me/api/portraits/men/4.jpg"
   },
   {
-    "author": "David Lee",
-    "profession":"",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "img": "https://example.com/image5.jpg"
+    "name": "Sophia Kim",
+    "jobTitle": "Full Stack Developer",
+    "company": "ABC Corp",
+    "testimonial": "Sophia is a highly skilled full stack developer who always delivers high-quality work. She is a great communicator and was able to keep us informed throughout the development process. Sophia is very knowledgeable about the latest web development technologies and was able to apply them to great effect on our project. I would highly recommend Sophia to anyone in need of a top-notch full stack developer.",
+    "image": "https://randomuser.me/api/portraits/women/5.jpg"
   },
   {
-    "author": "Sarah Brown",
-    "profession":"",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "img": "https://example.com/image6.jpg"
+    "name": "David Chen",
+    "jobTitle": "Software Developer",
+    "company": "XYZ Inc",
+    "testimonial": "David is a highly skilled software developer who consistently delivers high-quality work. He has a great eye for detail and was able to identify and fix issues quickly during our project. David is a great communicator and was able to keep us informed throughout the development process. I would highly recommend David to anyone in need of a talented and reliable software developer.",
+    "image": "https://randomuser.me/api/portraits/men/6.jpg"
+  },
+  {
+    "name": "Olivia Martinez",
+    "jobTitle": "Front-End Developer",
+    "company": "123 Co",
+    "testimonial": "Olivia is a highly skilled front-end developer who always delivers work of the highest quality. She is a great team player and was able to collaborate effectively with our designers and back-end developers. Olivia is very knowledgeable about the latest web development technologies and was able to apply them to great effect on our project. I would highly recommend Olivia to anyone in need of a skilled front-end developer.",
+    "image": "https://randomuser.me/api/portraits/women/7.jpg"
+  },
+  {
+    "name": "Ethan Kim",
+    "jobTitle": "Software Engineer",
+    "company": "456 Inc",
+    "testimonial": "Ethan is an exceptional software engineer who consistently delivers high-quality work. He has a great eye for detail and is always willing to go the extra mile to ensure that the project is a success. Ethan is a great communicator and was able to keep us informed throughout the development process. I would highly recommend Ethan to anyone in need of a talented andreliable software engineer.",
+    "image": "https://randomuser.me/api/portraits/men/8.jpg"
+  },
+  {
+    "name": "Isabella Hernandez",
+    "jobTitle": "Full Stack Developer",
+    "company": "ABC Corp",
+    "testimonial": "Isabella is a highly skilled full stack developer who always delivers high-quality work. She is a great team player and was able to collaborate effectively with our designers and back-end developers. Isabella is very knowledgeable about the latest web development technologies and was able to apply them to great effect on our project. I would highly recommend Isabella to anyone in need of a top-notch full stack developer.",
+    "image": "https://randomuser.me/api/portraits/women/9.jpg"
+  },
+  {
+    "name": "Michael Nguyen",
+    "jobTitle": "Software Developer",
+    "company": "XYZ Inc",
+    "testimonial": "Michael is an outstanding software developer who consistently delivers high-quality work. He has a great eye for detail and was able to identify and fix issues quickly during our project. Michael is a great communicator and was able to keep us informed throughout the development process. I would highly recommend Michael to anyone in need of a talented and reliable software developer.",
+    "image": "https://randomuser.me/api/portraits/men/10.jpg"
+  },
+  {
+    "name": "Chloe Brown",
+    "jobTitle": "Front-End Developer",
+    "company": "123 Co",
+    "testimonial": "Chloe is a highly skilled front-end developer who always delivers work of the highest quality. She is a great team player and was able to collaborate effectively with our designers and back-end developers. Chloe is very knowledgeable about the latest web development technologies and was able to apply them to great effect on our project. I would highly recommend Chloe to anyone in need of a skilled front-end developer.",
+    "image": "https://randomuser.me/api/portraits/women/11.jpg"
+  },
+  {
+    "name": "Christopher Lee",
+    "jobTitle": "Software Engineer",
+    "company": "456 Inc",
+    "testimonial": "Christopher is a talented and dedicated software engineer who always goes above and beyond to ensure the success of the project. He is a great communicator and was able to keep us informed throughout the development process. Christopher has an excellent understanding of the latest programming languages and frameworks and was able to apply them to great effect on our project. I would highly recommend Christopher to anyone in need of a top-notch software engineer.",
+    "image": "https://randomuser.me/api/portraits/men/12.jpg"
   }
 ]

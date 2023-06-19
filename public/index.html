@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
   <meta charset="utf-8" />
@@ -48,115 +48,97 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:light, normal" rel="stylesheet" />
   <link rel="icon" href="https://i.ibb.co/gw44r0c/profile-alpha.png" type="image/x-icon" />
   <link rel="stylesheet" href="output.css">
-  <style>
-    /* width */
-::-webkit-scrollbar {
-  width: 8px;
-  position: fixed;
-  right: 0;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #011d4a;
-  border-radius: 5px 0 0 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-  </style>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
   <script src="https://kit.fontawesome.com/76cc1105b1.js" crossorigin="anonymous"></script>
- 
 </head>
 
-<body class=" bg-primary-light dark:bg-primary-dark dark:text-primary-light">
+<body class="bg-primary-light dark:bg-primary-dark dark:text-primary-light">
   <!--main-picture-part-->
-  <div class="left-0 mb-44 flex">
-    <img class="hidden md:block max-w-sm lg:max-w-xl dark:hidden" src="img/img-main-light.png"
+  <div class="left-0 tablet:mb-0 lg:mb-44 flex">
+    <img class="hidden tablet:block md:block tablet:h-80 tablet:w-96 lg:max-w-xl lg:h-3/5 dark:hidden" src="img/img-main-light.png"
       alt="wendirad-demelash-pic">
-    <img class="hidden dark:block max-w-sm lg:max-w-xl" src="img/img-main-dark.png" alt="wendirad-demelash-pic">
+    <img class="hidden md:dark:block tablet:h-80 max-w-sm lg:max-w-xl lg:h-3/5" src="img/img-main-dark.png" alt="wendirad-demelash-pic">
+    <img class="block sm:hidden  will-change-auto  absolute left-9 top-0" style="width: 80%;" src="img/img-main-mob-light.png" alt="wendirad-demelash-pic">
     <!--Hero-->
-    <div class="mt-40 ml-20 font-light text-lg font-hero-title space-y-3 relative">
+    <div class="hero-main lg:mb-0 text-primary-light dark:text-secondary-light md:text-secondary-light md:dark:text-primary-light text-xs md:text-lg">
       <h1>Hello, I'm Wendirad Demelash </h1>
-      <p class="text-4xl">Full Stack Python Developer</p>
-      <img src="./img/vector-bg.svg" class="w-9/12 mt-10 dark:hidden" alt="">
-      <img src="./img/vector-bg-dark.svg" class="w-9/12 mt-10 hidden dark:block" alt="">
-      <div class="flex w-auto gap-10 z-10 absolute top-32 left-20">
-        <button class="bg-secondary-light dark:bg-primary-light dark:text-primary-dark dark:hover:text-primary-light w-auto flex space-x-2 border-none pb-1 pt-1 pr-2 pl-3 items-center text-primary-light hover:bg-gradient-to-tr hover:from-black hover:to-blue-700 rounded-full">
+      <p class="text-xl md:text-4xl">Full Stack Python Developer</p>
+      <img src="./img/vector-bg.svg" class="hidden md:block w-9/12 mt-10 dark:hidden" alt="">
+      <img src="./img/vector-bg-dark.svg" class="w-9/12 mt-10 md:hidden dark:block" alt="">
+      <div class="flex w-auto gap-10 z-10 absolute md:top-32 md:left-20 top-20 left-10">
+        <button class="down-cv">
           <i class="fa-solid fa-download"></i>
-          <h2>Download CV</h2>
+          <h2 class="hidden lg:block">Download CV</h2>
         </button>
-        <button class="bg-secondary-light dark:bg-primary-light dark:text-primary-dark dark:hover:text-primary-light w-auto flex space-x-2 pb-1 pt-1 pr-2 pl-3  items-center text-primary-light hover:bg-gradient-to-tr hover:from-black hover:to-blue-700 text-center rounded-full">
+        <button class="down-cv">
           <i class="fa-regular fa-envelope"></i>
-          <h2>Contact</h2>
+          <h2 class="hidden lg:block">Contact</h2>
         </button>
+      </div>
+          <div class="absolute right-12 md:right-24 lg:right-72">
+            <ul class="grid grid-cols-5 gap-10 items-center text-2xl">
+              <li class="text-xs lg:text-xl">
+                <a href="https://github.com/wendirad" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+              </li>
+              <li class="text-xs lg:text-xl">
+                <a href="https://linkedin.com/in/wendirad-demelash" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+              <li class="text-xs lg:text-xl"><a href="https://t.me/abnos_yemikael" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+              </li>
+              <li class="text-xs lg:text-xl">
+                <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
       </div>
     </div>
     <!--social Media part-->
-    <div class="absolute md:bottom-32 md:right-72">
-      <ul class="grid grid-cols-5 gap-10 items-center text-2xl">
-        <li class="icons">
-          <a href="https://github.com/wendirad" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
-        </li>
-        <li class="icons">
-          <a href="https://linkedin.com/in/wendirad-demelash" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        </li>
-        <li class="icons"><a href="https://t.me/abnos_yemikael" target="_blank"><i class="fa-brands fa-telegram"></i></a>
-        </li>
-        <li class="icons">
-          <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        </li>
-      </ul>
-    </div>
-    </div>
-  </div>
+
   <!--Navigation bar-->
-    <nav class="flex absolute top-1 z-10 w-full pr-5 pl-5 text-sm md:text-lg  items-end justify-end gap-5" style="position: fixed;">
-      <ul class="shadow-white shadow-sm cursor-pointer grid grid-cols-5 rounded-full gap-10 justify-center text-lg [*>:nth-child(n)]:hover:bg-slate-300 bg-secondary-light dark:bg-secondary-dark">
+    <nav class="main-nav" style="position: fixed;">
+      <ul class="nav-els">
         <li class="navigation ml-5">
-          <a href="#" class="hidden md:block">Home</a>
-          <a href="#" class="block md:hidden"><i class="fa-solid fa-house"></i></a>
+          <a href="#" class="nav-el-lg">Home</a>
+          <a href="#" class="nav-el-sm"><i class="fa-solid fa-house"></i></a>
         </li>
         <li class="navigation">
-          <a href="#about" class="hidden md:block">About</a>
-          <a href="#" class="block md:hidden"><i class="fa-solid fa-question"></i></a>
+          <a href="#about" class="nav-el-lg">About</a>
+          <a href="#" class="nav-el-sm"><i class="fa-solid fa-question"></i></a>
         </li>
         <li class="navigation">
-          <a href="#">Skill</a>
+          <a href="#" class="nav-el-lg">Skill</a>
+          <a href="#" class="nav-el-sm"><i class="fa-solid fa-user-gear"></i></a>
 
         </li>
         <li class="navigation">
-          <a href="#" class="hidden md:block">Education</a>
-          <a href="#" class="md:hidden block"><i class="fa-solid fa-user-graduate"></i></a>
+          <a href="#" class="nav-el-lg">Education</a>
+          <a href="#" class="nav-el-sm"><i class="fa-solid fa-user-graduate"></i></a>
         </li>
-        <li class="navigation mt-2 mr-3 ">
-          <a href="#">Blog</a>
+        <li class="navigation">
+          <a href="#" class="nav-el-lg">Blog</a>
+          <a href="#" class="nav-el-sm"><i class="fa-solid fa-file-pen"></i></a>
         </li>
       </ul>
       <div>
          <!--Toggle theme button-->
   <label class="relative inline-flex items-center cursor-pointer ">
     <input id="toggler" type="checkbox" value="" class="shadow-white shadow-sm sr-only peer">
-    <div
-      class="w-11 h-3 bg-gray-200 peer-focus:outline-none  flex items-center rounded-full peer dark:bg-gray-700 after:right-0  after:content-[''] after:bg-secondary-light after:absolute  peer-checked:after:-translate-x-6 peer-checked:after:bg-secondary-dark   after:rounded-full after:h-5 after:w-5 after:transition-all   peer-checked:bg-slate-400">
+    <div class="w-11 h-3 bg-gray-200 peer-focus:outline-none  flex items-center rounded-full peer dark:bg-gray-700 after:right-0  after:content-[''] after:bg-secondary-light after:absolute  peer-checked:after:-translate-x-6 peer-checked:after:bg-secondary-dark   after:rounded-full after:h-5 after:w-5 after:transition-all   peer-checked:bg-slate-400">
     </div>
   </label>
       </div>
     </nav>
 
     <!--About Me-->
-    <div class="mt-40 flex mb-20" id="about">
+    <div class="pt-40 flex mt-80 md:mt-0 mb-20" id="about">
       <div class="font-primary text-center flex justify-between ">
-        <div class="mt-32 ml-20 top-0">
+        <div class=" md:ml-20 top-0 p-10">
           <h1 class="text-3xl font-extrabold dark:text-primary-light mb-10" >About Me</h1>
-          <p class="text-center mr-2 md:text-start  leading-8 text-lg dark:text-primary-light">An experienced Python
+          <p class="md:text-center font-testimonials  leading-8 text-lg dark:text-primary-light">An experienced Python
             developer with 3+ years Experience, and strong understanding of programming and have worked on
             diverse projects, from web development to machine learning.. Prepared to deliver first-rate results to
             clients. I am a young talented African, a strong motivation for work, and
@@ -167,11 +149,12 @@
             new requirements to the existing system.</p>
         </div>
       </div>
-      <div><svg class="hidden lg:block dark:hidden absolute bottom-0 right-0 sm:relative" width="500" height="487"
+      <div style="@media (min-width: 1028px) {display: block;}" data-aos="fade-up-right" data-aos-duration="1000">
+        <svg class="hidden lg:block dark:hidden" width="500" height="487"
           viewBox="0 0 522 487" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M522 0V126.671V487H0L522 0Z" fill="#11151C" />
         </svg>
-        <svg class="hidden dark:block" width="500" height="487" viewBox="0 0 522 487" fill="none"
+        <svg class="hidden  lg:dark:block" data-aos="fade-up-right" data-aos-duration="3000" width="500" height="487" viewBox="0 0 522 487" fill="none"
           xmlns="http://www.w3.org/2000/svg">
           <path d="M522 0V126.671V487H0L522 0Z" fill="#2E394C" />
         </svg>
@@ -182,15 +165,35 @@
         <h1 class="text-center text-3xl">Projects</h1>
       </div>
       <div class="w-full text-center mt-20" id="projects">
-      
       </div>
   <!--Skills part-->
   <div class="w-full text-center mt-20 mb-32 font-extrabold text-3xl font-primary">
     <h1>Skills</h1>
     <div class="grid md:grid-cols-2 gap-10 m-6">
-      <div class="p-32 bg-secondary-light dark:bg-secondary-dark rounded-lg text-primary-light font-light text-md">skill
+      <div data-aos="flip-right" data-aos-duration="1000" class="p-32 bg-secondary-light dark:bg-secondary-dark rounded-lg text-primary-light font-light text-md">skill
       </div>
-      <div class="p-32 bg-secondary-light dark:bg-secondary-dark rounded-lg text-primary-light font-light text-md">
+      <div data-aos="flip-right" data-aos-duration="1000" class="p-32 bg-secondary-light dark:bg-secondary-dark rounded-lg text-primary-light font-light text-md">
+      </div>
+    </div>
+  </div>
+  <!-- Education -->
+  <div class="text-center">
+    <div class="flex flex-col md:grid md:grid-cols-2 overflow-hidden m-5 lg:flex-row sm:m-28  lg:gap-32 gap-20">
+      <div class="flex flex-col lg:mb-56 overflow-x-hidden">
+          <h1 class="font-hero-title text-3xl mb-10">Education</h1>
+          <div class="flex flex-col gap-20 lg:gap-44">
+          <div data-aos="fade-up-right" class="p-28 dark:bg-secondary-dark bg-secondary-light rounded-md"></div>
+          <div data-aos="fade-up-right" class="p-28 dark:bg-secondary-dark bg-secondary-light rounded-md"></div>
+          <div data-aos="fade-up-right" class="p-28 dark:bg-secondary-dark bg-secondary-light rounded-md"></div>
+          </div>
+      </div>
+      <div class="flex flex-col lg:mb-56 md:mt-44">
+        <h1 class="font-hero-title text-3xl mb-10">Experience</h1>
+        <div class="flex flex-col gap-20 lg:gap-44">
+          <div data-aos="fade-up-left" class="p-28 dark:bg-secondary-dark bg-secondary-light rounded-md"></div>
+          <div data-aos="fade-up-left" class="p-28 dark:bg-secondary-dark bg-secondary-light rounded-md"></div>
+          <div data-aos="fade-up-left" class="p-28 dark:bg-secondary-dark bg-secondary-light rounded-md"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -203,6 +206,53 @@
   <div class="text-center font-extrabold text-2xl dark:text-primary-light">Testimonials</div>
   <div id="testimonials">
   </div>
-  <script src="./theme-toggler.js"></script>
+  <!--Fun Facts-->
+  <div class="text-center">
+    <h1 class="font-hero-title text-2xl">Fun Facts</h1>
+  </div>
+  <!-- Contact -->
+  <div class="contact-form md:w-full flex bg-secondary-light dark:bg-secondary-dark justify-center">
+<div class="text-primary-light m-20">
+<article >
+  <h2 class="block text-center m-5 text-sm lg:text-2xl font-hero">Contact Me</h2>
+  <div>
+    <form action="https://send.pageclip.co/a5HGRacYuWURQ0S9rLNLxExE5WhiufFk/contact-form"
+      class="pageclip-form contact-form" method="post">
+      <div class="flex flex-col md:flex-row gap-5">
+        <div>
+        <label for="first-name">First Name:</label>
+        <input
+          class="rounded block py-2 px-3 text-gray-700 dark:bg-primary-dark  focus:outline-none"
+          type="text" id="first-name" name="first-name" placeholder="First Name" required />
+        </div>
+        <div>
+          <label for="name" >Last Name:</label>
+        <input
+          class="rounded block py-2 px-3 text-gray-700 dark:bg-primary-dark  focus:outline-none"
+          type="text" id="last-name" name="last-name" placeholder="Last Name" required /></div>
+        
+      </div>
+      <div class="w-1/2 md:w-full mt-6">
+        <label for="email" class="block">Email:</label>
+        <input class="rounded md:w-full py-2 px-3 text-gray-700 dark:bg-primary-dark focus:outline-none" type="email" id="email" name="email" placeholder="youremail@example.com" required />
+      </div>
+      <div class="md:w-full mt-6">
+        <label for="subject" class="block">Subject:</label>
+        <input class="rounded md:w-full py-2 px-3 text-gray-700 dark:bg-primary-dark focus:outline-none" type="choice" id="subject" name="subject" placeholder="Tell me what is this about" required />
+      </div>
+      <div class="md:w-full mt-6">
+        <label for="message" class="block">Message:</label>
+        <textarea class="rounded md:w-full py-7 px-3 text-gray-700 dark:bg-primary-dark focus:outline-none placeholder:start" name="message" id="message" placeholder="Tell me more about your interest ..." required></textarea>
+      </div>
+      <div class="md:w-full flex justify-center">
+        <button class="bg-primary-light p-2 hover:text-primary-light rounded-xl text-secondary-light hover:bg-gradient-to-r hover:to-blue-950 hover:from-secondary-dark" type="submit" class="pageclip-form__submit"><span>Contact</span></button>
+      </div>
+    </form>
+  </div>
+</article>
+</div>
+
+</div>
+<script src="./main-min.js"></script>
 </body>
 </html>

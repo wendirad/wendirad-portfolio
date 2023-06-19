@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gayathri&family=Monomaniac+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gayathri&family=Monomaniac+One&family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,5 +12,24 @@
     border-radius: 50%;
 } */
 .navigation {
-    @apply pl-1 pr-1 mt-2 font-primary text-primary-light;
+    @apply p-0 text-center font-primary text-primary-light;
+    margin-top: 0.3rem;
+}
+.nav-els{
+    @apply shadow-white shadow-sm cursor-pointer grid grid-cols-5 rounded-full gap-10 justify-center items-center text-lg bg-secondary-light dark:bg-secondary-dark;
+}
+.main-nav{
+    @apply flex absolute top-1 z-10 w-full pr-5 pl-5 text-sm md:text-lg items-end justify-end gap-5;
+}
+.down-cv{
+    @apply bg-secondary-light dark:bg-primary-light dark:text-primary-dark dark:hover:text-primary-light w-auto flex space-x-2 border-none pb-1 pt-1 pr-2 pl-3 items-center text-primary-light hover:bg-gradient-to-tr hover:from-black hover:to-blue-700 rounded-full;
+}
+.hero-main{
+    @apply mt-40 ml-20 font-light text-lg font-hero-title space-y-3 relative;
+}
+.nav-el-lg{
+    @apply hidden md:block;
+}
+.nav-el-sm{
+    @apply block md:hidden;
 }

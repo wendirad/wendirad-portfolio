@@ -8,7 +8,8 @@ module.exports = {
         'primary':['Gayathri'],
         'hero':['Monomaniac One'],
         'title': ['Roboto Mono'],
-        'hero-title':['Pacifico'],
+        'hero-title': ['Pacifico'],
+        'testimonials':['Barlow Semi Condensed'],
       },
       colors:{
         'primary-light':'#FFFDFD',
@@ -24,11 +25,7 @@ module.exports = {
       screens: {
         'phone': {'max': '639px'},
         'tablet': {'min': '640px', 'max': '1023px'},
-        'desktop': {'min': '1024px'},
-      },
-      backgroundImage:{
-        'hero-image-light': "url('frontend/img/hero-bg.png')",
-        'hero-image-dark':"url('frontend/img/hero-bg-dark.png)",
+        'desktop': { 'min': '1024px' },
       },
     },   
   },

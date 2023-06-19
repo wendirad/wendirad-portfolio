@@ -1,68 +1,58 @@
 [
-	{
-		"name": "Aloha",
-		"description": "Invoices, billing, purchases, sales, inventory, business operations and human resources management, all in one web app.<br><br> The website has been crafted from scratch using mostly the Laravel framework. I made everything from desiging the UI to the general backend structure, through most of the JS component required for the a best experience and user-friendliness.",
-		"tags": ["laravel", "jquery", "charts", "dompdf"],
-		"date": "2015",
-		"active": true
-	},
-	{
-		"description": "A simple neural network implementation featuring the Backward Propagation and the sigmoid function for activation.<br><br>Made in vanilla JS for a school exercise.",
-		"tags": ["jsfiddle", "javascript", "vanilla", "school"],
-		"date": "2016",
-		"classes": "project-invert",
-		"url": "https://jsfiddle.net/Tucsky/sL1wx816/"
-	},
-	{
-		"name": "Honi",
-		"description": "Honi is a free mobile application for couples allowing them to spice up their everyday's life by doing some missions and challenge with your other half.<br><br> I'm in charge of the server infrastructures, promotional website and I help in the development of the hybrid app that is presently available for iOS and Android.<br><br>As Honi is experiencing a real traffic increase over the past 6 months, we are now focused on the business development of the project and I recently started working on Honi Store, our shop made with Prestashop 1.7.",
-		"tags": ["laravel", "angularjs", "parse server", "prestashop 1.7"],
-		"date": "2015",
-		"active": true,
-		"url": "https://gethoni.com"
-	},
-	{
-		"name": "Xavier William",
-		"description": "Musician, singer et composer <i>pop/variété française</i> (french pop). A website showcasing 4 albums, including a player, audio visualiser, svg animations, and a one click album checkout using stripe.",
-		"tags": ["laravel", "webaudioapi", "stripe"],
-		"date": "2016",
-		"url": "https://xavierwilliam.com"
-	},
-	{
-		"name": "Gooey Effect",
-		"description": "A demonstration of the svg filters effect, through a pleasing drawing experiment only made with the help of vanilla JS (and a bit of jQuery because of the UI, settings etc).<br><br>Feel free to explore the different presets or play with the settings !",
-		"tags": ["svg", "canvas", "interactive", "codepen.io"],
-		"date": "2015",
-		"classes": "project-invert",
-		"url": "https://codepen.io/tucsky/full/zvRzBO"
-	},
-	{
-		"name": "Andesol",
-		"description": "A corporate website made for the mushroom wholesaler Andesol. I worked on the visuals, then developed the website with wordpress.",
-		"tags": ["wordpress"],
-		"date": "2015",
-		"url": "http://andesol.fr/"
-	},
-	{
-		"name": "Snorkeling Report",
-		"description": "",
-		"tags": ["wordpress", "d3.js", "buddypress"],
-		"date": "2015",
-		"url": "http://snorkeling-report.com"
-	},
-	{
-		"name": "Docopro",
-		"description": "I lead 2 developers and 1 designer into the conception of a web app dedicated to co-ownership associations management.",
-		"tags": ["laravel"],
-		"date": "2014",
-		"classes": "project-invert"
-	},
-	{
-		"name": "Flap.IO",
-		"slug": "flapio",
-		"description": "A fun Socket.IO + HTML Canvas experiement I made based on the game Flappy Bird which consisted in playing the original game but this time going all multiplayer !",
-		"tags": ["node.js", "socket.io", "canvas"],
-		"date": "2014",
-		"url": "http://flapio.kevinrostagni.me"
-	}
+    {
+      "title": "E-commerce Platform",
+      "description": "A scalable and secure e-commerce platform that includes features such as user authentication, product management, order processing, and payment integration.",
+      "image": "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg"
+
+    },
+    {
+      "title": "Social Media Analytics Tool",
+      "description": "A backend system that collects and analyzes data from social media platforms, providing insights such as user engagement, sentiment analysis, and follower growth.",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
+    },
+    {
+      "title": "Online Banking System",
+      "description": "A secure and reliable online banking system that includes features such as user authentication, account management, transaction processing, and fraud detection.",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
+    },
+    {
+      "title": "Fitness Tracking App Backend",
+      "description": "A backend system for a fitness tracking app that includes features such as user profiles, workout tracking, goal setting, and progress monitoring.",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
+    },
+    {
+      "title": "Online Learning Management System",
+      "description": "A web-based platform for managing online courses, including features such as user authentication, course creation and management, student enrollment, and progress tracking.",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
+
+    },
+    {
+      "title": "Real Estate Listings API",
+      "description": "An API for retrieving real estate listings, including features such as property search, listing details, and location-based data.",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
+
+    },
+    {
+      "title": "Restaurant Management System",
+      "description": "A web-based platform for managing restaurant operations, including features such as menu management, table reservations, order processing, and payment integration.",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
+
+    },
+    {
+      "title": "Appointment Scheduling System",
+      "description": "A backend system for scheduling appointments, including features such as user authentication, calendar management, appointment booking, and reminder notifications.",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
+    },
+    {
+      "title": "Online Marketplace Backend",
+      "description": "A backend system for an online marketplace, including features such as user authentication, product management, order processing, and payment integration.",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
+
+    },
+    {
+      "title": "Travel Booking API",
+      "description": "An API for booking travel services, including features such as flight search, hotel search, car rental, and travel itinerary management.",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
+
+    }
 ]
