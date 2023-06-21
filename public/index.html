@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="utf-8" />
@@ -34,7 +34,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-81DFQW03Y3"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+    function gtag() {dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'G-81DFQW03Y3');
@@ -57,18 +57,21 @@
 
 <body class="bg-primary-light dark:bg-primary-dark dark:text-primary-light">
   <!--main-picture-part-->
-  <div class="left-0 tablet:mb-0 lg:mb-44 flex">
-    <img class="hidden tablet:block md:block tablet:h-80 tablet:w-96 lg:max-w-xl lg:h-3/5 dark:hidden" src="img/img-main-light.png"
+  <div class="flex left-0 lg:mb-44 tablet:mb-0">
+    <img class="hidden md:block lg:max-w-xl lg:h-3/5 dark:hidden tablet:block tablet:h-80 tablet:w-96"
+      src="img/img-main-light.png" alt="wendirad-demelash-pic">
+    <img class="hidden max-w-sm lg:max-w-xl lg:h-3/5 tablet:h-80 md:dark:block" src="img/img-main-dark.png"
       alt="wendirad-demelash-pic">
-    <img class="hidden md:dark:block tablet:h-80 max-w-sm lg:max-w-xl lg:h-3/5" src="img/img-main-dark.png" alt="wendirad-demelash-pic">
-    <img class="block sm:hidden  will-change-auto  absolute left-9 top-0" style="width: 80%;" src="img/img-main-mob-light.png" alt="wendirad-demelash-pic">
+    <img class="block absolute top-0 left-9 sm:hidden will-change-auto" style="width: 80%;"
+      src="img/img-main-mob-light.png" alt="wendirad-demelash-pic">
     <!--Hero-->
-    <div class="hero-main lg:mb-0 text-primary-light dark:text-secondary-light md:text-secondary-light md:dark:text-primary-light text-xs md:text-lg">
+    <div
+      class="text-xs md:text-lg lg:mb-0 hero-main text-primary-light md:text-secondary-light md:dark:text-primary-light dark:text-secondary-light">
       <h1>Hello, I'm Wendirad Demelash </h1>
       <p class="text-xl md:text-4xl">Full Stack Python Developer</p>
-      <img src="./img/vector-bg.svg" class="hidden md:block w-9/12 mt-10 dark:hidden" alt="">
-      <img src="./img/vector-bg-dark.svg" class="w-9/12 mt-10 md:hidden dark:block" alt="">
-      <div class="flex w-auto gap-10 z-10 absolute md:top-32 md:left-20 top-20 left-10">
+      <img src="./img/vector-bg.svg" class="hidden mt-10 w-9/12 md:block dark:hidden" alt="">
+      <img src="./img/vector-bg-dark.svg" class="mt-10 w-9/12 md:hidden dark:block" alt="">
+      <div class="flex absolute left-10 top-20 z-10 gap-10 w-auto md:left-20 md:top-32">
         <button class="down-cv">
           <i class="fa-solid fa-download"></i>
           <h2 class="hidden lg:block">Download CV</h2>
@@ -78,100 +81,104 @@
           <h2 class="hidden lg:block">Contact</h2>
         </button>
       </div>
-          <div class="absolute right-12 md:right-24 lg:right-72">
-            <ul class="grid grid-cols-5 gap-10 items-center text-2xl">
-              <li class="text-xs lg:text-xl">
-                <a href="https://github.com/wendirad" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
-              </li>
-              <li class="text-xs lg:text-xl">
-                <a href="https://linkedin.com/in/wendirad-demelash" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-              </li>
-              <li class="text-xs lg:text-xl"><a href="https://t.me/abnos_yemikael" target="_blank"><i class="fa-brands fa-telegram"></i></a>
-              </li>
-              <li class="text-xs lg:text-xl">
-                <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-              </li>
-            </ul>
-          </div>
-          </div>
+      <div class="absolute right-12 md:right-24 lg:right-72">
+        <ul class="grid grid-cols-5 gap-10 items-center text-2xl">
+          <li class="text-xs lg:text-xl">
+            <a href="https://github.com/wendirad" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+          </li>
+          <li class="text-xs lg:text-xl">
+            <a href="https://linkedin.com/in/wendirad-demelash" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li class="text-xs lg:text-xl"><a href="https://t.me/abnos_yemikael" target="_blank"><i
+                class="fa-brands fa-telegram"></i></a>
+          </li>
+          <li class="text-xs lg:text-xl">
+            <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
-    <!--social Media part-->
+  </div>
+  </div>
+  <!--social Media part-->
 
   <!--Navigation bar-->
-    <nav class="main-nav" style="position: fixed;">
-      <ul class="nav-els">
-        <li class="navigation ml-5">
-          <a href="#" class="nav-el-lg">Home</a>
-          <a href="#" class="nav-el-sm"><i class="fa-solid fa-house"></i></a>
-        </li>
-        <li class="navigation">
-          <a href="#about" class="nav-el-lg">About</a>
-          <a href="#" class="nav-el-sm"><i class="fa-solid fa-question"></i></a>
-        </li>
-        <li class="navigation">
-          <a href="#skill" class="nav-el-lg">Skill</a>
-          <a href="#skill" class="nav-el-sm"><i class="fa-solid fa-user-gear"></i></a>
-        </li>
-        <li class="navigation">
-          <a href="#experience" class="nav-el-lg">Education</a>
-          <a href="#experience" class="nav-el-sm"><i class="fa-solid fa-user-graduate"></i></a>
-        </li>
-        <li class="navigation">
-          <a href="#" class="nav-el-lg">Blog</a>
-          <a href="#" class="nav-el-sm"><i class="fa-solid fa-file-pen"></i></a>
-        </li>
-      </ul>
-      <div>
-         <!--Toggle theme button-->
-  <label class="relative inline-flex items-center cursor-pointer ">
-    <input id="toggler" type="checkbox" value="" class="shadow-white shadow-sm sr-only peer">
-    <div class="w-11 h-3 bg-gray-200 peer-focus:outline-none  flex items-center rounded-full peer dark:bg-gray-700 after:right-0  after:content-[''] after:bg-secondary-light after:absolute  peer-checked:after:-translate-x-6 peer-checked:after:bg-secondary-dark   after:rounded-full after:h-5 after:w-5 after:transition-all   peer-checked:bg-slate-400">
+  <nav class="main-nav" style="position: fixed;">
+    <ul class="nav-els">
+      <li class="ml-5 navigation">
+        <a href="#" class="nav-el-lg">Home</a>
+        <a href="#" class="nav-el-sm"><i class="fa-solid fa-house"></i></a>
+      </li>
+      <li class="navigation">
+        <a href="#about" class="nav-el-lg">About</a>
+        <a href="#" class="nav-el-sm"><i class="fa-solid fa-question"></i></a>
+      </li>
+      <li class="navigation">
+        <a href="#skill" class="nav-el-lg">Skill</a>
+        <a href="#skill" class="nav-el-sm"><i class="fa-solid fa-user-gear"></i></a>
+      </li>
+      <li class="navigation">
+        <a href="#experience" class="nav-el-lg">Education</a>
+        <a href="#experience" class="nav-el-sm"><i class="fa-solid fa-user-graduate"></i></a>
+      </li>
+      <li class="navigation">
+        <a href="#" class="nav-el-lg">Blog</a>
+        <a href="#" class="nav-el-sm"><i class="fa-solid fa-file-pen"></i></a>
+      </li>
+    </ul>
+    <div>
+      <!--Toggle theme button-->
+      <label class="inline-flex relative items-center cursor-pointer">
+        <input id="toggler" type="checkbox" value="" class="shadow-sm sr-only shadow-white peer">
+        <div
+          class="flex items-center w-11 h-3 bg-gray-200 rounded-full dark:bg-gray-700 peer-focus:outline-none peer after:right-0 after:content-[''] after:bg-secondary-light after:absolute  peer-checked:after:-translate-x-6 peer-checked:after:bg-secondary-dark   after:rounded-full after:h-5 after:w-5 after:transition-all   peer-checked:bg-slate-400">
+        </div>
+      </label>
     </div>
-  </label>
-      </div>
-    </nav>
+  </nav>
 
-    <!--About Me-->
-    <div class="pt-40 flex mt-80 md:mt-0 mb-20" id="about">
-      <div class="font-primary text-center flex justify-between ">
-        <div class=" md:ml-20 top-0 p-10">
-          <h1 class="text-3xl font-extrabold dark:text-primary-light mb-10" >About Me</h1>
-          <p class="md:text-center font-testimonials  leading-8 text-lg dark:text-primary-light">An experienced Python
-            developer with 3+ years Experience, and strong understanding of programming and have worked on
-            diverse projects, from web development to machine learning.. Prepared to deliver first-rate results to
-            clients. I am a young talented African, a strong motivation for work, and
-            has skills with best practices. I can work collaboratively in different working environments and team
-            compositions. I am
-            always ready to accept new ideas to build a strong technical background, also can work on modifying existing
-            or adding
-            new requirements to the existing system.</p>
-        </div>
-      </div>
-      <div style="@media (min-width: 1028px) {display: block;}" data-aos="fade-up-right" data-aos-duration="1000">
-        <svg class="hidden lg:block dark:hidden" width="500" height="487"
-          viewBox="0 0 522 487" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M522 0V126.671V487H0L522 0Z" fill="#11151C" />
-        </svg>
-        <svg class="hidden  lg:dark:block" data-aos="fade-up-right" data-aos-duration="3000" width="500" height="487" viewBox="0 0 522 487" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <path d="M522 0V126.671V487H0L522 0Z" fill="#2E394C" />
-        </svg>
+  <!--About Me-->
+  <div class="flex pt-40 mt-80 mb-20 md:mt-0" id="about">
+    <div class="flex justify-between text-center font-primary">
+      <div class="top-0 p-10 md:ml-20">
+        <h1 class="mb-10 text-3xl font-extrabold dark:text-primary-light">About Me</h1>
+        <p class="text-lg leading-8 md:text-center font-testimonials dark:text-primary-light">An experienced Python
+          developer with 3+ years Experience, and strong understanding of programming and have worked on
+          diverse projects, from web development to machine learning.. Prepared to deliver first-rate results to
+          clients. I am a young talented African, a strong motivation for work, and
+          has skills with best practices. I can work collaboratively in different working environments and team
+          compositions. I am
+          always ready to accept new ideas to build a strong technical background, also can work on modifying existing
+          or adding
+          new requirements to the existing system.</p>
       </div>
     </div>
-    <!--Projects-->
-      <div class="items-center text-center font-hero-title">
-        <h1 class="text-center text-3xl">Projects</h1>
-      </div>
-      <div class="w-full text-center mt-20" id="projects">
-      </div>
+    <div style="@media (min-width: 1028px) {display: block;}" data-aos="fade-up-right" data-aos-duration="1000">
+      <svg class="hidden lg:block dark:hidden" width="500" height="487" viewBox="0 0 522 487" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M522 0V126.671V487H0L522 0Z" fill="#11151C" />
+      </svg>
+      <svg class="hidden lg:dark:block" data-aos="fade-up-right" data-aos-duration="3000" width="500" height="487"
+        viewBox="0 0 522 487" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M522 0V126.671V487H0L522 0Z" fill="#2E394C" />
+      </svg>
+    </div>
+  </div>
+  <!--Projects-->
+  <div class="items-center text-center font-hero-title">
+    <h1 class="text-3xl text-center">Projects</h1>
+  </div>
+  <div class="mt-20 w-full text-center" id="projects">
+  </div>
   <!--Skills part-->
-  <div class="w-full text-center mt-20 mb-32 text-3xl font-hero-title" id="skill">
+  <div class="mt-20 mb-32 w-full text-3xl text-center font-hero-title" id="skill">
     <h1>Skills</h1>
-    <div class="grid md:grid-cols-2 gap-10 m-6">
-      <div data-aos="flip-right" data-aos-duration="1000" class="pt-3 p-10 bg-secondary-light dark:bg-secondary-dark rounded-lg text-primary-light font-light text-md">
-        <div class="font-testimonials text-base text-start">
-          <ul class="list-disc font-bold">
+    <div class="grid gap-10 m-6 md:grid-cols-2">
+      <div data-aos="flip-right" data-aos-duration="1000"
+        class="p-10 pt-3 font-light rounded-lg bg-secondary-light text-primary-light text-md dark:bg-secondary-dark">
+        <div class="text-base font-testimonials text-start">
+          <ul class="font-bold list-disc">
             <li>Python</li>
           </ul>
           <p>
@@ -179,45 +186,8 @@
             integrations with good debugging skill.
           </p>
         </div>
-        <div class="font-testimonials text-base text-start">
-          <ul class="list-disc font-bold">
-            <li>Django</li>
-          </ul>
-          <p>
-          Experience in advanced Django concepts. Good at extending basic functionalities, and have good
-          optimization and testing skills.
-          </p>
-        </div>
-        <div class="font-testimonials text-base text-start">
-          <ul class="list-disc font-bold">
-            <li>REST API</li>
-          </ul>
-          <p>
-            Deep understanding of how REST APIs work. Familiar with Django Rest Framework core concepts and
-            best practices.
-          </p>
-        </div>
-        <div class="font-testimonials text-base text-start">
-          <ul class="list-disc font-bold">
-            <li>GIT</li>
-          </ul>
-          <p>
-            Good version control experience using git. Trained with GitHub to manage repositories
-          </p>
-        </div>
-      </div>
-      <div data-aos="flip-right" data-aos-duration="1000" class="pt-3 p-10 bg-secondary-light dark:bg-secondary-dark rounded-lg text-primary-light font-light text-md">
-        <div class="font-testimonials text-base text-start">
-          <ul class="list-disc font-bold">
-            <li>Python</li>
-          </ul>
-          <p>
-            Expertise in core python, a good understanding of multi-process architecture, and the ability to system
-            integrations with good debugging skill.
-          </p>
-        </div>
-        <div class="font-testimonials text-base text-start">
-          <ul class="list-disc font-bold">
+        <div class="text-base font-testimonials text-start">
+          <ul class="font-bold list-disc">
             <li>Django</li>
           </ul>
           <p>
@@ -225,8 +195,8 @@
             optimization and testing skills.
           </p>
         </div>
-        <div class="font-testimonials text-base text-start">
-          <ul class="list-disc font-bold">
+        <div class="text-base font-testimonials text-start">
+          <ul class="font-bold list-disc">
             <li>REST API</li>
           </ul>
           <p>
@@ -234,8 +204,46 @@
             best practices.
           </p>
         </div>
-        <div class="font-testimonials text-base text-start">
-          <ul class="list-disc font-bold">
+        <div class="text-base font-testimonials text-start">
+          <ul class="font-bold list-disc">
+            <li>GIT</li>
+          </ul>
+          <p>
+            Good version control experience using git. Trained with GitHub to manage repositories
+          </p>
+        </div>
+      </div>
+      <div data-aos="flip-right" data-aos-duration="1000"
+        class="p-10 pt-3 font-light rounded-lg bg-secondary-light text-primary-light text-md dark:bg-secondary-dark">
+        <div class="text-base font-testimonials text-start">
+          <ul class="font-bold list-disc">
+            <li>Python</li>
+          </ul>
+          <p>
+            Expertise in core python, a good understanding of multi-process architecture, and the ability to system
+            integrations with good debugging skill.
+          </p>
+        </div>
+        <div class="text-base font-testimonials text-start">
+          <ul class="font-bold list-disc">
+            <li>Django</li>
+          </ul>
+          <p>
+            Experience in advanced Django concepts. Good at extending basic functionalities, and have good
+            optimization and testing skills.
+          </p>
+        </div>
+        <div class="text-base font-testimonials text-start">
+          <ul class="font-bold list-disc">
+            <li>REST API</li>
+          </ul>
+          <p>
+            Deep understanding of how REST APIs work. Familiar with Django Rest Framework core concepts and
+            best practices.
+          </p>
+        </div>
+        <div class="text-base font-testimonials text-start">
+          <ul class="font-bold list-disc">
             <li>GIT</li>
           </ul>
           <p>
@@ -246,178 +254,59 @@
     </div>
   </div>
   <!-- Education -->
-  <div class="text-center" id="experience">
-    <h1 class="font-hero-title text-3xl">Experience</h1>
-    <div class="flex flex-col md:grid md:grid-cols-2 columns-4 overflow-hidden m-5 lg:flex-row sm:m-28  gap-10">
-      <div class="flex col-span-3 flex-col overflow-x-hidden">
-          <div class="flex flex-col gap-3">
-          <div data-aos="fade-up-right" data-aos-duration="100" class="p-10 text-primary-light font-testimonials dark:bg-secondary-dark bg-secondary-light rounded-md">
-            <div class="font-bold text-xl text-start">
-            <ul class="list-disc">
-              <li>ADAMA SCIENCE AND TECHNOLOGY UNIVERSITY</li>
-            </ul>
-          </div>
-          <p class="text-start">2018 - 2023 | Computer Science and Engineering</p>
-            <div class="font-bold text-xl text-start">
-              <ul class="list-disc">
-                <li>HAWASSA TABOR SECONDARY AND PREPARATORY SCHOOL</li>
-              </ul>
-            </div>
-            <p class="text-start">2015 - 2017 | Natural Science</p>
-            <div class="font-bold text-xl text-start">
-              <ul class="list-disc">
-                <li>HAWASSA ADDIS KETEMA SECONDARY AND PREPARATORY SCHOOL</li>
-              </ul>
-            </div>
-            <p class="text-start">2013 - 2014 | Natural Science</p>
-          </div>
-          <div data-aos="fade-up-right"
-            class="p-10 text-primary-light font-testimonials dark:bg-secondary-dark bg-secondary-light rounded-md">
-            <div class="font-bold text-xl text-start">
-              <ul class="list-disc">
-                <li>EXTREME PROGRAMMER</li>
-              </ul>
-            </div>
-            <p class="text-start">NOVEMBER 2021 <span class="block">Competitive Programming (Problem Solving)
-            Arab Academy for Science and Technology</span></p>
-          <div class="font-bold text-xl text-start">
-          <ul class="list-disc">
-            <li>HONORABLE MENTION</li>
-          </ul>
-          </div>
-          <p class="text-start">OCTOBER 2019<span class="block">Competitive Programming (Problem Solving)
-          Baylor University</span></p>
-          </div>
-          <div data-aos="fade-up-left"
-            class="p-10 text-primary-light font-testimonials text-sm text-start dark:bg-secondary-dark bg-secondary-light rounded-md">
-            <h1 class="font-bold not-italic text-xl">
-              <ul class="list-disc">
-                <li>Python Developer</li>
-              </ul>
-            </h1>
-            <div class="flex flex-row justify-between">
-              <div><a class="underline" href="https://turing.com" target="_blank">Turing .inc</a></div>
-              <div>November 2022 - Present | Full time</div>
-            </div>
-            <p>As a Python Developer at a US-based company, my role is to develop code toward
-              the company's mission of ensuring AI technology benefits all mankind. I solve
-              numerous puzzles daily by writing high-quality, optimized Python code with minimal
-              supervision. I work in a fast-paced environment that handles millions of production
-              requests per day by leveraging advanced systems and APIs. Additionally, I provide
-              clear explanations of logic in my code, handle complex situations, debug, create
-              documentation, and conduct peer code reviews.</p>
-          </div>
-          </div>
-      </div>
-      
-      <div class="flex flex-col col-span-3 lg:mb-56 md:mt-44">
-        <div class="flex flex-col gap-3 ">
-                  <div data-aos="fade-up-left"
-                    class="p-10 text-primary-light font-testimonials text-sm text-start dark:bg-secondary-dark bg-secondary-light rounded-md">
-                    <h1 class="font-bold not-italic text-xl">
-                      <ul class="list-disc">
-                        <li>Full Stack Developer</li>
-                      </ul>
-                    </h1>
-                    <div class="flex flex-row justify-between">
-                      <div><a class="underline" href="https://turing.com" target="_blank">Backos Technologies</a></div>
-                      <div>January 2019 - November 2022 | Full time</div>
-                    </div>
-                    <p>As a Full Stack Developer at Backos Technology, I have 4 years of experience in
-                      developing and maintaining web applications using Python and Django. My
-                      responsibilities included designing and implementing new features, fixing bugs, and
-                      improving the performance and scalability of existing code. I have worked with a
-                      variety of programming languages and frameworks, including Python, Django,
-                      HTML, CSS, and JavaScript. I have also collaborated with cross-functional teams to
-                      ensure that the applications I worked on met the needs of the business and
-                      delivered a great user experience.</p>
-                  </div>
-        <div data-aos="fade-up-left"
-          class="p-10 text-primary-light font-testimonials text-sm text-start dark:bg-secondary-dark bg-secondary-light rounded-md">
-          <h1 class="font-bold not-italic text-xl">
-            <ul class="list-disc">
-
-              <li>Full Stack Web Developer</li>
-            </ul>
-          </h1>
-          <div class="flex flex-row justify-between">
-            <div><a class="underline" href="https://turing.com" target="_blank">Divergent Technologies</a></div>
-            <div>February 2022 - January 2023 | Contract</div>
-          </div>
-          <p>As a Full Stack Developer at Divergent Technology, I was involved in the
-          development of a web solution for the education sector focused on AI and Machine
-          Learning. My responsibilities included gathering requirements, building SRS,
-          designing system architecture, and implementing both front-end and back-end
-          features.</p>
-        </div>
-        <div data-aos="fade-up-left"
-          class="p-10 text-primary-light font-testimonials text-sm text-start dark:bg-secondary-dark bg-secondary-light rounded-md">
-          <h1 class="font-bold not-italic text-xl">
-            <ul class="list-disc">
-              <li>Full Stack Web Developer</li>
-            </ul>
-          </h1>
-          <div class="flex flex-row justify-between">
-            <div><a class="underline" href="https://turing.com" target="_blank">ASTU ,SoEEC</a></div>
-            <div>May 2022 - October 2022 | Contract</div>
-          </div>
-          <p>As a Full Stack Developer at ASTU, I was involved in the development of a store
-          management system for the School of Electrical Engineering and Computing
-          (SoEEC). My responsibilities included designing and implementing features to verify
-          stock balance, track item borrow history, manage university instructors' activity in
-          stores, digitize item borrow request process, and manage reports and analytics.</p>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div class="">Experience</div>
 
   <!--Testimonial-->
-  <div class="text-center font-extrabold text-2xl dark:text-primary-light">Testimonials</div>
+  <div class="text-2xl font-extrabold text-center dark:text-primary-light">Testimonials</div>
   <div id="testimonials">
   </div>
   <!-- Contact -->
-  <div class="contact-form md:w-full flex bg-secondary-light dark:bg-secondary-dark justify-center">
-<div class="text-primary-light m-20">
-<article >
-  <h2 class="block text-center m-5 text-sm lg:text-2xl font-hero">Contact Me</h2>
-  <div>
-    <form action="https://send.pageclip.co/a5HGRacYuWURQ0S9rLNLxExE5WhiufFk/contact-form"
-      class="pageclip-form contact-form" method="post">
-      <div class="flex flex-col md:flex-row gap-5">
+  <div class="flex justify-center md:w-full contact-form bg-secondary-light dark:bg-secondary-dark">
+    <div class="m-20 text-primary-light">
+      <article>
+        <h2 class="block m-5 text-sm text-center lg:text-2xl font-hero">Contact Me</h2>
         <div>
-        <label for="first-name">First Name:</label>
-        <input
-          class="rounded block py-2 px-3 text-gray-700 dark:bg-primary-dark  focus:outline-none"
-          type="text" id="first-name" name="first-name" placeholder="First Name" required />
+          <form action="https://send.pageclip.co/a5HGRacYuWURQ0S9rLNLxExE5WhiufFk/contact-form"
+            class="pageclip-form contact-form" method="post">
+            <div class="flex flex-col gap-5 md:flex-row">
+              <div>
+                <label for="first-name">First Name:</label>
+                <input class="block py-2 px-3 text-gray-700 rounded focus:outline-none dark:bg-primary-dark"
+                  type="text" id="first-name" name="first-name" placeholder="First Name" required />
+              </div>
+              <div>
+                <label for="name">Last Name:</label>
+                <input class="block py-2 px-3 text-gray-700 rounded focus:outline-none dark:bg-primary-dark"
+                  type="text" id="last-name" name="last-name" placeholder="Last Name" required />
+              </div>
+
+            </div>
+            <div class="mt-6 w-1/2 md:w-full">
+              <label for="email" class="block">Email:</label>
+              <input class="py-2 px-3 text-gray-700 rounded md:w-full focus:outline-none dark:bg-primary-dark"
+                type="email" id="email" name="email" placeholder="youremail@example.com" required />
+            </div>
+            <div class="mt-6 md:w-full">
+              <label for="subject" class="block">Subject:</label>
+              <input class="py-2 px-3 text-gray-700 rounded md:w-full focus:outline-none dark:bg-primary-dark"
+                type="choice" id="subject" name="subject" placeholder="Tell me what is this about" required />
+            </div>
+            <div class="mt-6 md:w-full">
+              <label for="message" class="block">Message:</label>
+              <textarea
+                class="py-7 px-3 text-gray-700 rounded md:w-full focus:outline-none placeholder:start dark:bg-primary-dark"
+                name="message" id="message" placeholder="Tell me more about your interest ..." required></textarea>
+            </div>
+            <div class="flex justify-center md:w-full">
+              <button
+                class="p-2 rounded-xl hover:bg-gradient-to-r bg-primary-light text-secondary-light hover:text-primary-light hover:to-blue-950 hover:from-secondary-dark"
+                type="submit" class="pageclip-form__submit"><span>Contact</span></button>
+            </div>
+          </form>
         </div>
-        <div>
-          <label for="name" >Last Name:</label>
-        <input
-          class="rounded block py-2 px-3 text-gray-700 dark:bg-primary-dark  focus:outline-none"
-          type="text" id="last-name" name="last-name" placeholder="Last Name" required /></div>
-        
-      </div>
-      <div class="w-1/2 md:w-full mt-6">
-        <label for="email" class="block">Email:</label>
-        <input class="rounded md:w-full py-2 px-3 text-gray-700 dark:bg-primary-dark focus:outline-none" type="email" id="email" name="email" placeholder="youremail@example.com" required />
-      </div>
-      <div class="md:w-full mt-6">
-        <label for="subject" class="block">Subject:</label>
-        <input class="rounded md:w-full py-2 px-3 text-gray-700 dark:bg-primary-dark focus:outline-none" type="choice" id="subject" name="subject" placeholder="Tell me what is this about" required />
-      </div>
-      <div class="md:w-full mt-6">
-        <label for="message" class="block">Message:</label>
-        <textarea class="rounded md:w-full py-7 px-3 text-gray-700 dark:bg-primary-dark focus:outline-none placeholder:start" name="message" id="message" placeholder="Tell me more about your interest ..." required></textarea>
-      </div>
-      <div class="md:w-full flex justify-center">
-        <button class="bg-primary-light p-2 hover:text-primary-light rounded-xl text-secondary-light hover:bg-gradient-to-r hover:to-blue-950 hover:from-secondary-dark" type="submit" class="pageclip-form__submit"><span>Contact</span></button>
-      </div>
-    </form>
+      </article>
+    </div>
   </div>
-</article>
-</div>
-</div>
-<script src="./main-min.js"></script>
+  <script src="./main-min.js"></script>
 </body>
 </html>
