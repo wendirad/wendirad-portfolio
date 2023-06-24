@@ -10,6 +10,7 @@ module.exports = {
         'title': ['Roboto Mono'],
         'hero-title': ['Pacifico'],
         'testimonials':['Barlow Semi Condensed'],
+        'experience-title':['Ysabeau Infant', 'sans-serif'],
       },
       colors:{
         'primary-light':'#FFFDFD',
