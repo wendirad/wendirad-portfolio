@@ -1,12 +1,12 @@
 <template>
-    <div class="flex flex-col md:grid md:grid-cols-2 gap-5 m-10">
+    <div class="flex flex-wrap justify-center mb-10 gap-10 ">
         <div v-for="(project,index) in visibleProjects" :key="index">
             <ProjectsComponent  :data="project" class="w-30"/>
         </div>
     </div>
-    <div class="flex gap-20 justify-center w-full">
-        <button class="bg-slate-300 p-5 rounded-md" v-if="hasMore" @click="loadMore">Show More</button>
-        <button class="bg-slate-300 p-5 rounded-md" v-if="hasLess" @click="loadLess">Show Less</button>
+    <div class="flex gap-20 justify-center w-full font-testimonials">
+        <button class="projects-button" v-if="hasMore" @click="loadMore"><h1>Show More</h1><font-awesome-icon icon="arrow-down" /></button>
+        <button class="projects-button" v-if="hasLess" @click="loadLess"><h1>Show Less</h1><font-awesome-icon icon="fa-solid fa-arrow-up" /></button>
     </div>
 </template>
 <script>
@@ -18,16 +18,16 @@ export default {
     },
     data() {
         return {
-            projectsToRead:4,
+            projectsToRead:3,
             projects,
         }
     },
     methods:{
         loadMore() {
-            this.projectsToRead+=4
+            this.projectsToRead+=3
         },
         loadLess() {
-            this.projectsToRead-=4
+            this.projectsToRead-=3
         }
     },
     computed: {
@@ -38,7 +38,7 @@ export default {
             return this.projectsToRead < this.projects.length;
         },
         hasLess() {
-            return this.projectsToRead > 4;
+            return this.projectsToRead > 3;
         }
     }
 }

@@ -34,3 +34,9 @@
 .nav-el-sm{
     @apply block md:hidden;
 }
+.projects-button{
+    @apply bg-slate-300 dark:bg-secondary-dark p-4 pt-2 pb-2 flex rounded-full items-center hover:bg-slate-700 gap-2;
+}
+.projects-cover{
+    @apply absolute bottom-0 left-0 flex flex-col p-5 align-middle right-0 font-testimonials hover:text-primary-dark justify-center top-0 h-full w-full overflow-hidden opacity-0 hover:text-opacity-100 bg-white bg-fixed transition duration-300 ease-in-out hover:opacity-90;
+}
