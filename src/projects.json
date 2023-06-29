@@ -6,11 +6,6 @@
 
     },
     {
-      "title": "Social Media Analytics Tool",
-      "description": "A backend system that collects and analyzes data from social media platforms, providing insights such as user engagement, sentiment analysis, and follower growth.",
-      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
-    },
-    {
       "title": "Online Banking System",
       "description": "A secure and reliable online banking system that includes features such as user authentication, account management, transaction processing, and fraud detection.",
       "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
@@ -20,11 +15,10 @@
       "description": "A backend system for a fitness tracking app that includes features such as user profiles, workout tracking, goal setting, and progress monitoring.",
       "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
     },
-    {
-      "title": "Online Learning Management System",
-      "description": "A web-based platform for managing online courses, including features such as user authentication, course creation and management, student enrollment, and progress tracking.",
+     {
+      "title": "Fitness Tracking App Backend",
+      "description": "A backend system for a fitness tracking app that includes features such as user profiles, workout tracking, goal setting, and progress monitoring.",
       "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg"
-
     },
     {
       "title": "Real Estate Listings API",

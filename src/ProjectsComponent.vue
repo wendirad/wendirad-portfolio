@@ -7,10 +7,6 @@
             <p>{{ data.description }}</p>
             </div>
         </div>
-        <!-- <div>
-            <div class="flex flex-col justify-center"><h1 class="block font-bold"></h1>
-            
-        </div> -->
 </template>
 <script>
 import AOS from 'aos'

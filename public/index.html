@@ -108,13 +108,14 @@
           <ul class="grid grid-cols-5 gap-10 items-center text-2xl">
             <li class="text-xs lg:text-xl">
               <a href="https://github.com/wendirad" target="_blank"><i
-                  class="fa-brands fa-github-alt"></i></a>
+                  class="mr-3 fa-brands fa-github-alt"></i></a>
             </li>
             <li class="text-xs lg:text-xl">
               <a href="https://linkedin.com/in/wendirad-demelash"
                 target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </li>
-            <li class="text-xs lg:text-xl"><a href="https://t.me/abnos_yemikael"
+            <li class="text-xs lg:text-xl"><a
+                href="https://t.me/abnos_yemikael" Nam
                 target="_blank"><i
                   class="fa-brands fa-telegram"></i></a>
             </li>
@@ -138,20 +139,20 @@
       </li>
       <li class="navigation">
         <a href="#about" class="nav-el-lg">About</a>
-        <a href="#" class="nav-el-sm"><i class="fa-solid fa-question"></i></a>
+        <a href="#" class="nav-el-sm ml-5"><i class="fa-solid fa-question"></i></a>
       </li>
       <li class="navigation">
         <a href="#skill" class="nav-el-lg">Skill</a>
         <a href="#skill" class="nav-el-sm"><i class="fa-solid fa-user-gear"></i></a>
       </li>
       <li class="navigation">
-        <a href="#experience" class="nav-el-lg">Education</a>
+        <a href="#experience" class="nav-el-lg">Experience</a>
         <a href="#experience" class="nav-el-sm"><i
             class="fa-solid fa-user-graduate"></i></a>
       </li>
-      <li class="navigation">
+      <li class="navigation ">
         <a href="#" class="nav-el-lg">Blog</a>
-        <a href="#" class="nav-el-sm"><i class="fa-solid fa-file-pen"></i></a>
+        <a href="#" class="nav-el-sm hidden"><i class="pr-10 fa-solid fa-file-pen"></i></a>
       </li>
     </ul>
     <div>
@@ -169,16 +170,19 @@
   <div class="flex mt-96 md:mt-0 pt-40 md:pt-0 mb-20 " id="about">
     <div class="flex mt-10 md:mt-0 justify-between text-center font-primary">
       <div class="top-0 p-10 md:ml-20">
-        <h1 class="mb-10 text-3xl font-extrabold dark:text-primary-light">About
+        <h1
+          class="mb-10 text-3xl font-hero font-extrabold dark:text-primary-light">About
           Me</h1>
         <p
           class="text-lg leading-8 md:text-center font-testimonials dark:text-primary-light">An
           experienced Python
           developer with 3+ years Experience, and strong understanding of
           programming and have worked on
-          diverse projects, from web development to machine learning.. Prepared
+          diverse projects, from web development to machine learning..
+          Prepared
           to deliver first-rate results to
-          clients. I am a young talented African, a strong skillmotivation for
+          clients. I am a young talented African, a strong skillmotivation
+          for
           work,
           and
           has skills with best practices. I can work collaboratively in
@@ -211,19 +215,36 @@
   <div class="mt-20 w-full text-center" id="projects">
   </div>
   <!--Skills part-->
-  <h1 class="font-hero-title w-full text-center mt-20">Skills</h1>
-  <div class id="skill">
-    <div
-      class="w-full font-extrabold justify-center font-experience-title flex gap-10">
-      <div>
-        <img src="img/python-logo.png" class="w-[10%]" alt>
-        <h1 class="font-project-title">Python</h1>
-      </div>
+  <h1 class="font-hero-title text-3xl mb-10 w-full text-center mt-20" id="skill">Skills</h1>
+  <div class="p-5 md:pl-16 md:pr-16 flex justify-start md:justify-normal flex-col gap-10" >
+    <div class="md:flex md:gap-36 justify-center">
+      <div class="flex w-full md:w-1/2 mb-10 gap-10 font-testimonials">
+      <img class="h-10 md:w-16 md:h-auto rounded-lg md:mr-10" src="https://i.pinimg.com/564x/b0/da/e6/b0dae6377ba06571698026012043f122.jpg" alt="" srcset="">
+      <p>Experience in advanced Django concepts. Good at extending basic functionalities, and have good
+optimization and testing skills</p> 
+    </div>
+      <div class="flex w-full md:w-1/2 gap-10 font-testimonials">
+      <img class="h-10 md:w-24 md:h-auto md:mr-16" src="./img/python-logo.png" alt="" srcset="">
+      <p>Expertise in core python, a good understanding of multi-process architecture, and the ability to system
+integrations with good debugging skill.</p> 
+    </div>
+    </div>
+    <div class="md:flex gap-36 justify-center">
+      <div class="flex w-full md:w-1/2 mb-10 gap-10 font-testimonials">
+      <img class="h-10 md:w-16 md:h-auto rounded-lg md:mr-10" src="img/git-logo.png" alt="" srcset="">
+      <p>Good version control experience using git. Trained with GitHub to manage repositories</p> 
+    </div>
+    <div class="flex md:w-1/2 gap-5  font-testimonials">
+      <img class="h-10 md:w-24 md:h-auto md:mr-10 rounded-lg" src="https://storage.caktusgroup.com/media/blog-images/drf-logo2.png" alt="" srcset="">
+      <p>Deep understanding of how REST APIs work. Familiar with Django Rest Framework core concepts and best practices.</p> 
+    </div>
+    
+    </div>
     </div>
     <!-- Education -->
     <h1
-      class="text-center flex flex-col justify-center items-center font-hero-title text-4xl mb-10">Experience</h1>
-    <div class="flex flex-col text-white md:block gap-10 mb-20">
+      class="text-center flex flex-col justify-center items-center font-hero-title text-4xl mb-10" id="experience">Experience</h1>
+    <div class="flex flex-col text-white md:block gap-2 md:gap-10 mb-20">
       <!-- One Stack with both of left and right -->
       <div
         class="ml-0 md:ml-10 mr-10 h-full flex flex-col gap-4 md:gap-0 md:grid items-center md:grid-cols-9 relative">
@@ -245,7 +266,8 @@
             <h1 class="text-slate-500">November 2022 - Present | Full time</h1>
           </div>
           <p class="font-testimonials text-sm">
-            As a Python Developer at a US-based company, my role is to develop
+            As a Python Developer at a US-based company, my role is to
+            develop
             code toward
             the company's mission of ensuring AI technology benefits all
             mankind. I solve
@@ -255,7 +277,8 @@
             millions of production
             requests per day by leveraging advanced systems and APIs.
             Additionally, I provide
-            clear explanations of logic in my code, handle complex situations,
+            clear explanations of logic in my code, handle complex
+            situations,
             debug, create
             documentation, and conduct peer code reviews.
           </p>
@@ -286,13 +309,16 @@
               time</h1>
           </div>
           <p class="font-testimonials text-sm">
-            As a Full Stack Developer at Backos Technology, I have 4 years of
+            As a Full Stack Developer at Backos Technology, I have 4 years
+            of
             experience indeveloping and maintaining web
-            applications using Python and Django. Myresponsibilities included
+            applications using Python and Django. Myresponsibilities
+            included
             designing and implementing new features, fixing bugs,
             andimproving the performance and scalability of existing code. I
             have worked with avariety of programming languages and
-            frameworks, including Python, Django,HTML, CSS, and JavaScript. I
+            frameworks, including Python, Django,HTML, CSS, and JavaScript.
+            I
             have also collaborated with cross-functional teams
             toensure that the applications I worked on met the needs of the
             business anddelivered a great user experience.
@@ -321,10 +347,12 @@
             <a href="https://www.turing.com/" target="_blank">
               <h1 class="underline">Divergent Technologies</h1>
             </a>
-            <h1 class="text-slate-500">February 2022 - January 2023 | Contract</h1>
+            <h1 class="text-slate-500">February 2022 - January 2023 |
+              Contract</h1>
           </div>
           <p class="font-testimonials text-sm">
-            As a Full Stack Developer at Divergent Technology, I was involved
+            As a Full Stack Developer at Divergent Technology, I was
+            involved
             in
             thedevelopment of a web solution for the education
             sector focused on AI and MachineLearning. My responsibilities
@@ -365,7 +393,8 @@
             of a storemanagement system for the School of
             Electrical Engineering and Computing(SoEEC). My responsibilities
             included designing and implementing features to
-            verifystock balance, track item borrow history, manage university
+            verifystock balance, track item borrow history, manage
+            university
             instructors' activity instores, digitize item borrow
             request process, and manage reports and analytics.
           </p>
@@ -373,79 +402,78 @@
       </div>
     </div>
     <!--Testimonial-->
-    <div class="text-2xl font-extrabold text-center dark:text-primary-light">Testimonials</div>
+    <div
+      class="text-2xl font-extrabold font-hero-title text-center dark:text-primary-light">Testimonials</div>
     <div id="testimonials">
     </div>
-    <!-- Contact -->        
-    <h2 class="block pt-10 bg-slate-200 dark:bg-transparent dark:bg-primary-dark w-full h-full  text-sm text-center lg:text-4xl font-hero">Contact
-          Me</h2>
-      <div class="p-5 bg-slate-200 dark:bg-transparent w-full md:flex gap-4">
-        <div class="w-full md:flex justify-center gap-10">
-          <div class="flex-col md:text-xl">
-            <h1 class="font-testimonials ">
-              <i class="mr-3 fa-solid fa-phone"></i>
-              <span class="md:text-2    xl md:font-extrabold">Call Me</span><span class="block text-slate-500">+251 94 522 4486</span> </h1> 
-            <h1 class="font-testimonials"><i class="mr-3 fa-solid fa-envelope"></i><span class="md:text-2xl font-extrabold">Email</span> <span class="block text-slate-500">wendiraddame@gmail.com</span> </h1>
-          </div>
-          <div class="bg-slate-200 dark:bg-transparent font-testimonials w-full md:w-2/5 rounded-md">
-            <form action="https://send.pageclip.co/a5HGRacYuWURQ0S9rLNLxExE5WhiufFk/contact-form"
-              class="pageclip-form contact-form md:flex w-full gap-16" method="post">
-              <div>
-                <div>
-                  <label for="first-name" class="block">Name:</label>
-                  <input
-                    class="py-2 px-3 text-gray-700 rounded w-full focus:outline-none text-sm"
-                    type="text" id="first-name" name="first-name"
-                    placeholder="Name" required />
-                </div>
-              <div class="mt-3 w-full">
-                <label for="email" class="block">Email:</label>
-                <input
-                  class="py-2 px-3 text-gray-700 rounded w-full focus:outline-none text-sm"
-                  type="email" id="email" name="email"
-                  placeholder="youremail@example.com" required />
-              </div>                  
-              <div class="md:w-full">
-                <label for="subject" class="block">Subject:</label>
-                <input
-                  class="py-2 px-3 text-gray-700 rounded w-full focus:outline-none text-sm"
-                  type="choice" id="subject" name="subject"
-                  placeholder="Tell me what is this about" required />
-              </div>
-              </div>
-              <div class="md:w-1/2">
-              <div class="w-full">
-                <label for="message" class="block">Message:</label>
-                <textarea
-                  class="resize-none py-2 md:h-24 px-3  w-full text-gray-700 rounded w-100 focus:outline-none placeholder:start text-sm"
-                  name="message" id="message"
-                  placeholder="Tell me more about your interest ..." required></textarea>
-              </div>              '
-              <div class="flex md:w-full">
-                <button
-                  class="p-2 rounded-md pr-16 pl-16 font-experience-title bg-slate-500 mt-1 hover:bg-gradient-to-r text-secondary-light hover:text-primary-light hover:to-blue-950 hover:from-secondary-dark"
-                  type="submit" class="pageclip-form__submit"><span>Contact</span></button>
-              </div>
-              </div>
-
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-      <!-- Credit -->
-    <div class="text-white font-testimonials w-full flex bg-secondary-light h-10 dark:bg-secondary-dark">
-      <div class="w-full flex text-xs md:text-lg justify-center">
-        <h1>
-          Copyright &copy; all right reserved,
-          Developed by <a href="https://hunderaweke.github.io" class="text-blue-500" target="_blank">Hundera Awoke</a>
-        </h1>
+    <!-- Contact -->
+    <div class="md:flex w-full justify-evenly p-8 bg-slate-300 dark:bg-transparent">
+      <div class="w-full lg:w-1/3 flex-col md:text-sm lg:pl-16 md:pr-16 justify-center text-center">
+        <h1 class="font-hero text-xl lg:text-2xl font-bold">Contact Me</h1>
+        <p class="font-testimonials text-start">I am Wendirad Demelash A Full
+          Stack Python developer with high level of skills ready for hiring</p>
+          <ul class="mt-10 flex justify-center gap-10 text-2xl">
+            <li class="text-sm lg:text-xl">
+              <a href="https://github.com/wendirad" target="_blank"><i
+                  class="mr-3 fa-brands fa-github-alt"></i></a>
+            </li>
+            <li class="text-sm lg:text-xl">
+              <a href="https://linkedin.com/in/wendirad-demelash"
+                target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="text-sm lg:text-xl"><a
+                href="https://t.me/abnos_yemikael" Nam
+                target="_blank"><i
+                  class="fa-brands fa-telegram"></i></a>
+            </li>
+            <li class="text-sm lg:text-xl">
+              <a href="https://facebook.com/" target="_blank"><i
+                  class="fa-brands fa-facebook"></i></a>
+            </li>
+          </ul>
       </div>
       <div>
+        <form class="md:flex gap-8 font-hero"">
+          <div class="flex flex-col gap-1 >
+            <label for="name">Name:</label>
+            <input required
+              class="contact-input focus:outline-none focus:shadow-md focus:shadow-blue-500"
+              placeholder="Full Name"
+              type="text"
+              name="name">
+            <label for="name">Email:</label>
+            <input required
+              class="contact-input focus:outline-none focus:shadow-md focus:shadow-blue-500"
+              placeholder="youremail@example.com"
+              type="text"
+              name="email">
+            <label for="name">Subject:</label>
+            <input required
+              class="contact-input focus:outline-none focus:shadow-md focus:shadow-blue-500"
+              placeholder="Your subject of interest "
+              type="text"
+              name="name">
+          </div>
+          <div class="flex flex-col">
+            <label for="message" class="block">Message</label>
+            <textarea required name="message" cols="30" rows="5" placeholder="Tell me more ..."
+              class="rounded-md p-3 text-sm resize-none placeholder:font-testimonials focus:outline-none focus:shadow-md focus:shadow-blue-500"></textarea>
+            <button class="bg-secondary-dark mt-3 p-2 rounded-md  hover:bg-slate-500 text-white">Send Message</button>
+          </div>
+        </form>
       </div>
     </div>
-    </div>
+    <!-- Credit -->
+    <footer
+      class="text-white font-credit w-full flex bg-secondary-light h-10 dark:bg-secondary-dark">
+      <div class="w-full flex text-xs md:text-md justify-center">
+        <h1>
+          Copyright &copy; all right reserved,
+          Developed by <a href="https://hunderaweke.github.io"
+            class="text-blue-500" target="_blank">Hundera Awoke</a>
+        </h1>
+      </div>
+    </footer>
     <script src="./main-min.js"></script>
   </body>
 </html>
-

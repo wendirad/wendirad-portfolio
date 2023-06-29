@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,7 +21,7 @@
     @apply shadow-white shadow-sm cursor-pointer grid grid-cols-5 rounded-full gap-10 justify-center items-center text-lg bg-secondary-light dark:bg-secondary-dark;
 }
 .main-nav{
-    @apply flex absolute top-1 z-10 w-full pr-5 pl-5 text-sm md:text-lg items-end justify-end gap-5;
+    @apply flex absolute top-1 z-10 w-screen md:w-full pr-5 pl-5 text-xs md:text-lg items-end justify-end gap-5;
 }
 .down-cv{
     @apply bg-secondary-light dark:bg-primary-light dark:text-primary-dark dark:hover:text-primary-light w-auto flex space-x-2 border-none pb-1 pt-1 pr-2 pl-3 items-center text-primary-light hover:bg-gradient-to-tr hover:from-black hover:to-blue-700 rounded-full;
@@ -39,4 +40,10 @@
 }
 .projects-cover{
     @apply absolute bottom-0 left-0 flex flex-col p-5 align-middle right-0 font-testimonials hover:text-primary-dark justify-center top-0 h-full w-full overflow-hidden opacity-0 hover:text-opacity-100 bg-white bg-fixed transition duration-300 ease-in-out hover:opacity-90;
+}
+.contact-input{
+    @apply p-1.5  font-primary placeholder:font-testimonials rounded-md;
+}
+.contact-input-effect{
+    @layer ;
 }

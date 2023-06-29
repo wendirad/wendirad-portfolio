@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-wrap justify-center mb-10 gap-10 ">
+    <div class="flex flex-wrap justify-center md:justify-between mb-10 gap-16 md:gap-0 pr-12 pl-12">
         <div v-for="(project,index) in visibleProjects" :key="index">
             <ProjectsComponent  :data="project" class="w-30"/>
         </div>
@@ -38,7 +38,7 @@ export default {
             return this.projectsToRead < this.projects.length;
         },
         hasLess() {
-            return this.projectsToRead > 3;
+            return this.projectsToRead > 2;
         }
     }
 }

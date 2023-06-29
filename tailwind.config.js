@@ -11,6 +11,7 @@ module.exports = {
         'hero-title': ['Pacifico'],
         'testimonials':['Barlow Semi Condensed'],
         'experience-title':['Ysabeau Infant', 'sans-serif'],
+        'credit':['Ysabeau Infant'],
       },
       colors:{
         'primary-light':'#FFFDFD',
