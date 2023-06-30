@@ -1,5 +1,5 @@
 <template>
-        <div data-aos="zoom-in-right" data-aos-duration="1000" class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat rounded-md shadow-lg shadow-black">
+        <div data-aos="zoom-in-right" data-aos-duration="1000" class="relative max-w-xs mt-10 overflow-hidden bg-cover bg-no-repeat rounded-md shadow-lg shadow-black">
             <img :src="data.image" class="max-w-xs" alt="">
             <div 
         class="projects-cover">

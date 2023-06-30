@@ -38,7 +38,7 @@ export default {
             return this.projectsToRead < this.projects.length;
         },
         hasLess() {
-            return this.projectsToRead > 2;
+            return this.projectsToRead > 3;
         }
     }
 }
