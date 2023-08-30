@@ -11,4 +11,4 @@ theme_toggler.addEventListener('click', (e) => {
         html.classList.add('dark')
     }
 })
-AOS.init();
+
